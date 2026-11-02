@@ -1,13 +1,13 @@
-# Tilt Ball Game dengan Kontrol Gestur (ESP32 & MPU6050)
+# Ninja Fruit Game dengan Kontrol Gestur (ESP32 & MPU6050)
 
-Proyek ini adalah permainan interaktif berbasis desktop (*Tilt Ball Game*) yang dikendalikan menggunakan gestur kemiringan tangan secara real-time. Proyek ini mengintegrasikan sensor **MPU6050** dan mikrokontroler **ESP32** sebagai kontroler fisik, serta **Processing 4** sebagai engine game di sisi komputer.
+Proyek ini adalah permainan interaktif berbasis desktop (*Ninja Fruit Game*) yang dikendalikan menggunakan gestur kemiringan tangan secara real-time. Proyek ini mengintegrasikan sensor **MPU6050** dan mikrokontroler **ESP32** sebagai kontroler fisik, serta **Processing 4** sebagai engine game di sisi komputer.
 
 ---
 
 ## 🚀 Fitur Utama
-* **Kontrol Gestur Real-time:** Memanfaatkan sensor Gyroscope & Accelerometer (MPU6050) untuk membaca sudut kemiringan tangan (Roll & Pitch).
+* **Kontrol Gestur Real-time:** Memanfaatkan sensor Gyroscope & Accelerometer (MPU6050) untuk membaca sudut kemiringan tangan (Roll & Pitch) guna mengendalikan tebasan pedang.
 * **Koneksi Serial Cepat:** Pengiriman data dari ESP32 ke PC menggunakan komunikasi Serial UART yang responsif.
-* **Visualisasi Game Interaktif:** Game bola bergerak dinamis di dalam arena berdasarkan hukum fisika sederhana yang dibuat dengan Processing 4.
+* **Visualisasi Game Interaktif:** Game memotong buah yang muncul secara dinamis di dalam arena berdasarkan hukum fisika sederhana yang dibuat dengan Processing 4.
 
 ---
 
@@ -38,7 +38,7 @@ Proyek ini adalah permainan interaktif berbasis desktop (*Tilt Ball Game*) yang 
 
 ## 📦 Struktur Repositori
 * `Program Arduino IDE/` : Berisi kode program `.ino` untuk membaca sensor MPU6050 dan mengirim data serial lewat ESP32.
-* `Program Processing 4/` : Berisi kode program `.pde` untuk membaca data serial komputer dan merender permainan bola.
+* `Program Processing 4/` : Berisi kode program `.pde` untuk membaca data serial komputer dan merender permainan memotong buah.
 * `Dokumentasi/` : Berisi file foto rangkaian komponen fisik perangkat keras dan tampilan visual game.
 
 ---
@@ -57,7 +57,7 @@ Proyek ini adalah permainan interaktif berbasis desktop (*Tilt Ball Game*) yang 
 2. Buka file `.pde` di dalam folder `Program Processing 4` menggunakan Processing 4.
 3. Sesuaikan nama port COM pada kode Processing agar cocok dengan port ESP32 Anda (misalnya `"COM3"`).
 4. Klik tombol **Run** (ikon segitiga/Play) pada Processing 4.
-5. Gerakkan sensor MPU6050 Anda untuk mengendalikan bola di dalam game!
+5. Gerakkan sensor MPU6050 Anda untuk mulai menebas buah di dalam game!
 
 ---
 
@@ -73,4 +73,4 @@ Berikut adalah dokumentasi rangkaian hardware dan demonstrasi gameplay:
 ### 🎥 Link Video Demonstrasi
 Anda dapat melihat video demonstrasi lengkap mengenai cara kerja alat dan cuplikan permainan melalui tautan di bawah ini:
 
-🎬 **[Tonton Video Demonstrasi Tilt Ball Game](https://drive.google.com/file/d/1u3OfgG6Mr6HBlCE-szdWYF6XBBVZAUCi/view?usp=drivesdk)**
+🎬 **[Tonton Video Demonstrasi Ninja Fruit Game](https://drive.google.com/file/d/1u3OfgG6Mr6HBlCE-szdWYF6XBBVZAUCi/view?usp=drivesdk)**
