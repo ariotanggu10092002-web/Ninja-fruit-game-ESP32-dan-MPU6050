@@ -68,7 +68,7 @@ Berikut adalah dokumentasi rangkaian hardware dan demonstrasi gameplay:
 
 | Rangkaian Alat 1 | Rangkaian Alat 2 | Tampilan Game / Dokumentasi |
 |--- |--- |--- |
-| ![ESP32 MPU6050](Dokumentasi/ESP32+MPU6050...jpg) | ![MPU6050 ESP32](Dokumentasi/MPU6050+ESP32.jpg) | ![Dokumentasi Game](Dokumentasi/Dokumentasi.jpg) |
+| ![ESP32 MPU6050](Dokumentasi/ESP32_MPU6050...jpg) | ![MPU6050 ESP32](Dokumentasi/MPU6050_ESP32.jpg) | ![Dokumentasi Game](Dokumentasi/Dokumentasi.jpg) |
 
 ### 🎥 Link Video Demonstrasi
 Anda dapat melihat video demonstrasi lengkap mengenai cara kerja alat dan cuplikan permainan melalui tautan di bawah ini:
